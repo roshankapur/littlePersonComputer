@@ -26,5 +26,6 @@
 // Function declarations
 void loadProgram(int memory[]);
 int getValidatedInput(void);
-
+int extractOpCode(int instruction);
+int extractOperand(int instruction);
 #endif

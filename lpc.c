@@ -40,3 +40,11 @@ int getValidatedInput(void) {
         printf("Number out of range. Please enter a number between %d and %d: ", MIN_VALUE, MAX_VALUE);
     }
 }
+
+int extractOpCode(int instruction) {
+    return instruction / 100;
+}
+
+int extractOperand(int instruction) {
+    return instruction % 100;
+}
