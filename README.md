@@ -105,3 +105,6 @@ This table summarizes the instruction set for the Little Person Computer, detail
 110A  // OUT: Output value from address 0A
 0000  // HLT: Halt program
 ```
+
+# What's Next?
+I want to host a page on Vercel that has an interactive terminal window that is running this code in the background - maybe i will rewrite the ISA in JS to make the hosting easier.
