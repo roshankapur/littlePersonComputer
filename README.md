@@ -51,7 +51,7 @@ This table summarizes the instruction set for the Little Person Computer, detail
 *Note: 'XX' represents the memory address (00-99).*
 
 # Example Programs
-Here are some example LPC programs included in the repository:
+### Here are some example LPC programs included in the repository:
 
 1. Compare Two Numbers: Reads two numbers and prints the larger value.
 ```
