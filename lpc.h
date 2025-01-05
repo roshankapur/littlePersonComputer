@@ -25,7 +25,10 @@
 
 // Function declarations
 void loadProgram(int memory[]);
+void executeProgram(int memory[]);
 int getValidatedInput(void);
+void dumpMemory(int memory[], int accumulator, int programCounter, int opCode, int operand);
+void fatalError(const char* message, int memory[], int accumulator, int programCounter, int opCode, int operand);
 int extractOpCode(int instruction);
 int extractOperand(int instruction);
 #endif
